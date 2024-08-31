@@ -49,5 +49,17 @@ body {
   right: 50px;
   background-color: rgb(247, 0, 255);
   border-radius: 50%;
+}
 
+#box5 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgb(247, 0, 255);
 }
