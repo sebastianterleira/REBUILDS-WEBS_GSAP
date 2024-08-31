@@ -8,15 +8,45 @@ body {
   font-family: sans-serif;
   line-height: 1;
   color: #333;
-  background-color: #f5f5f5;  
+  background-color: #f5f5f5;
+  height: 100vh;
 }
 
-h1 {
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 3.5rem;
-  line-height: 1.1;
+  top: 500px;
+  left: 50px;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background-color: blue;
+}
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: rgb(0, 255, 55);
+  border-radius: 50%;
+}
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 500px;
+  right: 50px;
+  background-color: rgb(247, 0, 255);
+  border-radius: 50%;
+
 }
