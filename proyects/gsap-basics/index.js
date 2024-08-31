@@ -54,7 +54,7 @@ gsap.from("#box4", { x: 500, duration: 1 });
 const tl = gsap.timeline();
 
 
-tl.from("#box5", { opacity: 0, duration: 2, delay: 2 })
+tl.from("#box5", { opacity: 0, duration: 2, delay: 1.5 })
   .fromTo("#box5", { background: "#da1", duration: 1.5  }, { rotation: 720, duration: 2 });
 
 
@@ -66,3 +66,9 @@ tl.from("#box5", { opacity: 0, duration: 2, delay: 2 })
 //   .to("#box", { scale: 1, duration: 1 });
 
   // Animaciones en secuencia, cada animacion empieza
+
+  document.querySelector("#play").onclick = () => tl.play();
+  document.querySelector("#pause").onclick = () => tl.pause();
+  document.querySelector("#resume").onclick = () => tl.resume();
+  document.querySelector("#reverse").onclick = () => tl.reverse();
+  document.querySelector("#restart").onclick = () => tl.restart();
