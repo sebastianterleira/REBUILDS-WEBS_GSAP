@@ -1,3 +1,3 @@
 # Project Preview
 
-![](/images/preview.jpg)
+![Project preview image](/images/preview.jpg)
