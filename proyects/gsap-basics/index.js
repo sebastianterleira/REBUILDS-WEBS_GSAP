@@ -10,6 +10,12 @@ gsap.to("#box", {
   "border-radius": "50%",
 });
 
+gsap.from("#box", { x: -500, duration: 1 });
+gsap.from("#box2", { x: 500, duration: 1 });
+gsap.from("#box3", { x: -500, duration: 1 });
+gsap.from("#box4", { x: 500, duration: 1 });
+
+
 gsap.to("#box2", {
   opacity: 0.6,
   scale: 0.5,
