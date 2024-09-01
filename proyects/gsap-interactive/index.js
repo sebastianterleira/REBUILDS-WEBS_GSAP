@@ -16,3 +16,9 @@ gsap.to("#box", {
   x: 500, 
   duration: 6,
 })
+
+gsap.registerPlugin(Draggable);
+
+Draggable.create("#box", {
+  type: "x,y"
+});
